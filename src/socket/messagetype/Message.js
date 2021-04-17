@@ -1,4 +1,4 @@
-module.exports = class {
+module.Message = class {
     constructor(type) {
         this.type = type;
     }

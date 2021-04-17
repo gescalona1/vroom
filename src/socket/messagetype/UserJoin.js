@@ -1,6 +1,6 @@
 const Message = require("./Message.js");
 
-module.exports = class extends Message {
+module.UserJoin = class extends Message {
     constructor(user, sessionid) {
         super("userjoin");
         this.user = user;

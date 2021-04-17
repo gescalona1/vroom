@@ -1,6 +1,6 @@
 const Message = require("./Message.js");
 
-module.exports = class extends Message {
+module.SessionCreate = class extends Message {
     constructor(owner) {
         super("sessioncreate");
         this.owner = owner;

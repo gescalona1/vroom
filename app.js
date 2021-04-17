@@ -5,6 +5,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 const wsPort = process.env.WSPORT || 5000;
 
+app.use(express.static(__dirname + "/public"));
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 })
