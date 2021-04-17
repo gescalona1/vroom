@@ -1,0 +1,22 @@
+{
+  "name": "vroom",
+  "version": "1.0.0",
+  "description": "the better zoom",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gescalona1/vroom.git"
+  },
+  "author": "Giordan Escalona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gescalona1/vroom/issues"
+  },
+  "homepage": "https://github.com/gescalona1/vroom#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
